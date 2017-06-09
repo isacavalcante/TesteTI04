@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+	<meta charset="utf-8">
+	<title>Formulário</title>
+</head>
+<body>
+<form>
+<h1>Formulário</h1>
+<fieldset>
+<legend>Dados pessoais</legend>	
+<p>Nome:<input type="text" maxlength="10"></p>
+<p>Endereço:<input type="text" size="20"></p>
+<p>Cidade:<input type="text" size="10"></p>
+<p>Estado:<select type="text" value="estado">
+<option>São Paulo</option>
+<option>Rio de Janeiro</option>
+<option>Paraná</option>
+<option>Rio Grande do Sul</option>
+</select></p>
+</fieldset>
+<fieldset>
+<legend>Dados profissionais</legend>
+<br>
+<legend>Natureza do Cargo</legend>
+<p>Gerência<input type="radio" value="gerência" name="info" checked>
+Financeiro<input type="radio" value="financeiro" name="info">
+Recepção<input type="radio" value="recepção" name="info">
+Administrativo<input type="radio" value="adm" name="info">
+Jurídico<input type="radio" value="juridico" name="info"></p>
+<br>
+<legend>Área de interesse</legend>
+<p><input type="checkbox" value="computação">Computação	
+<input type="checkbox" value="bio">Biologia
+<input type="checkbox" value="meioAmbiente">Meio Ambiente
+<input type="checkbox" value="engenharia">Engenharia
+<input type="checkbox" value="historia">História</p>
+<p>Mini-curriculo<textarea rows="6" cols="50"></textarea></p>
+</fieldset>
+<br>
+<p><input type="submit" value="Enviar">
+<input type="reset" value="Limpar"></p>
+
+
+</form>
+</body>
+</html>
